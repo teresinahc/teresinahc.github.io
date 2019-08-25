@@ -14,7 +14,7 @@ body {
   padding: 0;
   font-family: "Source Code Pro", monospace;
   font-size: 12.5px;
-  color: #DBDBDB;
+  color: #4bff00;
   text-align: left;
   line-height: 1.5 !important; }
 
@@ -23,19 +23,19 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0px;
   margin-top: 22px;
   font-weight: bold;
-  color: #DBDBDB; }
+  color: #4bff00; }
 
 p, ul, ol {
   margin: 0px;
-  color: #DBDBDB; }
+  color: #4bff00; }
 
 a {
   text-decoration: underline;
-  color: #DBDBDB; }
+  color: #4bff00; }
 
 a:hover {
   color: #000;
-  background-color: #DBDBDB; }
+  background-color: #4bff00; }
 
 .primary-text {
   color: #a1fc8f; }
@@ -69,8 +69,8 @@ p {
   white-space: pre-wrap; }
 
 footer {
-  color: #DBDBDB;
-  border-top: dashed 1px rgba(219, 219, 219, 0.9);
+  color: #4bff00;
+  border-top: dashed 1px #4bff00;
   margin: 20px auto 15px;
   padding-top: 10px;
   text-align: right; }
@@ -115,8 +115,8 @@ footer {
  * Header/Navigation
  */
 .menu {
-  border-top: dashed 1px rgba(219, 219, 219, 0.9);
-  border-bottom: dashed 1px rgba(219, 219, 219, 0.9);
+  border-top: dashed 1px #4bff00;
+  border-bottom: dashed 1px #4bff00;
   margin-bottom: 25px; }
 
 .menu ul {
@@ -132,12 +132,12 @@ footer {
 
 .menu ul li a {
   text-decoration: none;
-  color: #DBDBDB; }
+  color: #4bff00; }
 
 .menu ul li a:hover {
   text-decoration: none;
   color: #000;
-  background-color: #DBDBDB; }
+  background-color: #4bff00; }
 
 /**
  * Form
@@ -153,8 +153,8 @@ input[type=text], select, textarea {
   width: 100%;
   resize: none;
   background-color: #000;
-  color: #DBDBDB;
-  caret-color: #DBDBDB;
+  color: #4bff00;
+  caret-color: #4bff00;
   font-size: 12.5px;
   font-family: "Source Code Pro", monospace;
   line-height: 1.5; }
@@ -163,26 +163,26 @@ input, select, textarea, textarea::-webkit-input-placeholder {
   text-indent: 0px; }
 
 ::placeholder {
-  color: #DBDBDB;
+  color: #4bff00;
   opacity: 1; }
 
 :-ms-input-placeholder {
-  color: #DBDBDB; }
+  color: #4bff00; }
 
 ::-ms-input-placeholder {
-  color: #DBDBDB; }
+  color: #4bff00; }
 
 input[type=submit] {
   font-size: 12.5px;
   font-family: "Source Code Pro", monospace;
   line-height: 1.5;
   cursor: pointer;
-  color: #DBDBDB;
+  color: #4bff00;
   background-color: #000; }
 
 input[type=submit]:hover {
   color: #000;
-  background-color: #DBDBDB; }
+  background-color: #4bff00; }
 
 *:focus {
   outline: none; }
