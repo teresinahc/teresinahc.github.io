@@ -1,2 +1,1 @@
-# teresinahc.github.io
-Site do Teresina Hacker Clube
+# Site do Teresina Hacker Clube
