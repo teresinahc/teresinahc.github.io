@@ -2,6 +2,7 @@
 title: /HomePage
 layout: home
 permalink: /
+accesskey: 1
 ---
 
 # Lorem ipsum
