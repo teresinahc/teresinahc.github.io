@@ -1,12 +1,12 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 <header>
   <div class="menu">
-    <p>Teresina Hacker Clube</p>
+    <h1>Teresina Hacker Clube</h1>
     <ul>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}
-        <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+        <li><a href="{{ my_page.url | relative_url }}" accesskey="{{ my_page.accesskey }}">{{ my_page.title | escape }} [{{ my_page.accesskey }}]</a></li>
         {%- endif -%}
       {%- endfor -%}
     </ul>

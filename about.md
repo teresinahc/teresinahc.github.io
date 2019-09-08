@@ -2,6 +2,7 @@
 title: /SobreNós
 layout: default
 permalink: /aboutus
+accesskey: 2
 ---
 
 # Sobre nós
